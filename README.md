@@ -1,1 +1,1 @@
-# itbuddy
+# I.T Buddy
