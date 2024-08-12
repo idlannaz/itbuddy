@@ -8,7 +8,7 @@ function contact() {
             <div class="container my-5">
                 <div class="row">
                    
-                    <div class="col-md-6">
+                    <div class="col-md-6 text-light">
                         <h2>DROP US A LINE</h2>
                         <form>
                             <div class="mb-3">
@@ -32,7 +32,7 @@ function contact() {
                     </div>
 
 
-                    <div class="col-md-6">
+                    <div class="col-md-6 text-light">
                         <h2>CONTACT INFORMATION</h2>
                         <p>
                             We love to hear from you on our customer service, merchandise, website or any

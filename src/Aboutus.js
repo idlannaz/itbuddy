@@ -4,7 +4,8 @@
 
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Aboutus.css'; // Ensure this file exists for additional styles
+import './App.css'; // Ensure this file exists for additional styles
+import { Link } from 'react-router-dom';
 
 // Head Component
 function Head() {
@@ -17,7 +18,7 @@ function Head() {
             <hr className="my-4" />
             <p>Is there anything specific you’d like to know more about?</p>
             <p className="lead">
-                <a className="btn btn-primary btn-lg" href="#" role="button">Contact Us</a>
+                <Link className="btn btn-primary btn-lg" to="/contact" role="button">Contact Us</Link>
             </p>
         </div>
     );
