@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './landpage.css'; // Import the CSS file for styling
+import './App.css'; // Import the CSS file for styling
 
 const Home = () => {
   return (

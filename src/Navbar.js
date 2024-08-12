@@ -1,14 +1,14 @@
 // src/components/Navbar.js
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link
-import AndroidIcon from '@mui/icons-material/Android';
+// import AndroidIcon from '@mui/icons-material/Android';
 import './Navbar.css';
 
 function Navbar() {
   return (
     <nav className="navbar navbar-dark bg-dark">
       <a className="navbar-brand" href="#">
-        <AndroidIcon style={{ color: 'white', marginRight: '8px' }} />
+        {/* <AndroidIcon style={{ color: 'white', marginRight: '8px' }} /> */}
         I.T. Buddy
       </a>
       <button
@@ -28,13 +28,13 @@ function Navbar() {
             <Link className="nav-link" to="/">Home</Link> {/* Use Link for routing */}
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/about">About</Link>
+            <Link className="nav-link" to="/abt">About</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/products">Products</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/contacts">Contact</Link>
+            <Link className="nav-link" to="/contact">Contact</Link>
           </li>
         </ul>
       </div>
